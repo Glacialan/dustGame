@@ -1,0 +1,45 @@
+body {
+    margin: 10px;
+    padding: 3px;
+    background: #3D3D40;
+    font-family: monospace;
+    font-size: normal;
+    color: #cccccc;
+}
+
+body > div {
+    width: 500px;
+    margin: auto;
+    /*background-color: #fff;*/
+}
+
+#display {
+    border: 4px;
+    border-style: solid;
+    border-color: #aa9;
+    border-radius: 2px;
+}
+
+div[data-formula] {
+    display: table;
+}
+
+a {
+    color: #3333ee;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.example-label {
+    vertical-align: center;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
